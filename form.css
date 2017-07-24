@@ -1,0 +1,70 @@
+legend{
+	font-weight:bold;
+	font-style: italic;
+	font-size: 20px;
+	padding: 4px;
+	text-transform: uppercase;
+	color:grey;
+}
+div{
+	margin-left: 2px;
+}
+
+body{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style: italic;
+	line-height:200%;
+}
+
+#pembungkus_form{
+	background: white;
+	padding: 10px;
+	width: 70%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+fieldset{
+	border:1px #333333 solid;
+	padding: 10px;
+	box-shadow: 0 0 10px #aaa;
+}
+
+label{
+	margin-bottom: 2px;
+	width: 100%;
+	display:inline-block;
+	padding: 2px;
+	margin:auto;
+}
+
+input[type=text] {
+
+		width:15%;
+		background:#CCCCCC;
+		height:20px;
+		border:1px #333333 solid;
+		border-radius:5px;
+
+}
+
+input[type=submit]    {
+
+	width:100px;
+	height:25px;
+	background:#333333;
+	border:2px #CCCCCC solid;
+	border-radius:5px;
+	color:#FFFFFF;
+	margin-left:2px;
+
+}
+
+textarea    {
+
+	border:1px #333333 solid;
+	border-radius:10px;
+	background:#ccc;
+
+}
